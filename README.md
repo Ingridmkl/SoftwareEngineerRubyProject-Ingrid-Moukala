@@ -1,7 +1,14 @@
 # Jeu de Touché/Coulé en Ruby
 
-Voici mon implémentation du jeu touché/coulé en Ruby.
-Le jeu se joue entre deux joueurs qui ont chacun une grille sur laquelle ils doivent placer deux bateaux (un grand et un petit) et essaient chacun de faire couler le bateau de l'autre en tirant sur des positios de la grille.
+## Introduction
+Ce projet est une implémentation du jeu touché/coulé en Ruby.
+Le jeu se joue entre deux joueurs qui placent chacun deux bateaux (un grand et un petit) sur une grille 5x5, et essaient chacun de faire couler le bateau de l'autre en tirant sur des positios de la grille.
+
+## Fonctionnalités
+- Initialisation de joueurs.
+- Placement des bateaux pour chaque joueurs.
+- Tentative de tirs avec réponse sur l'effectivité du tir.
+- Visualisation des grilles et emplacement de bateaux
 
 ## Prérequis
 
@@ -11,6 +18,25 @@ Le jeu se joue entre deux joueurs qui ont chacun une grille sur laquelle ils doi
 
 Clonez le dépôt:
 
+```
+
+git clone https://github.com/Ingridmkl/SoftwareEngineerRubyProject-Ingrid-Moukala.git
+
+cd SoftwareEngineerRubyProject-Ingrid-Moukala
+
+```
+## Utilisation
+
+Pour lancer le jeu, exécutez le fichier `game.rb` :
+
+```
+
+ruby game.rb
+
+```
+## Exemple de Jeu
+
+Voici un exemple de session de jeu :
 
 C:\Users\ingri\Documents\SoftwareEngineerRubyProject-Ingrid-Moukala>ruby game.rb
 Joueur 1, veuillez saisir votre nom:
@@ -356,3 +382,6 @@ Souhaitez-vous recommencer la partie?
 N
 
 C:\Users\ingri\Documents\SoftwareEngineerRubyProject-Ingrid-Moukala>
+
+## Auteur et contacts
+- Ingrid Moukala - Ingrid-rose.moukala@outlook.fr
